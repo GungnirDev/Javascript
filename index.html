@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+            background-color: lightblue;
+            }
+
+            div{
+            text-align:center;
+            }
+
+            .title{
+            text-align:center;
+            font-family:Impact;
+            font-size:40px;
+            color:rebeccapurple;
+            }
+
+            .text{
+            text-align:center;
+            font-family:Impact;
+            font-size:20px;
+            }
+            
+            .inputbox{
+                text-align:center;
+            }
+
+        </style>
+    </head>
+    <body>
+            <p class="title">Tetrapi JavaScript Test</p>
+            <p id="msg" class="text">Enter your guess (0-100).</p>
+            <p id="attemptstext" class="text"></p>
+            <div>
+            <input type="text" class="inputbox" id="myText"><p></p>
+            <button onclick="guessfunc()" id="guessfunc">Enter</button><p></p>
+            <button onclick="generate()">Generate a new number</button>
+            </div>
+            <script src="game.js"></script>
+    </body>
+
+
+</html>
